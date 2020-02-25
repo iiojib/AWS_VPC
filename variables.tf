@@ -4,7 +4,7 @@ variable "region" {
 
 variable "name" {}
 
-variable "cidr" {
+variable "vpc_cidr" {
  default = "10.2.0.0/24"
 }
 
